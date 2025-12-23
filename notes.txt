@@ -1,0 +1,4 @@
+Python is fun
+I am learning file handling
+Day 5 practice
+Thin line was appended
