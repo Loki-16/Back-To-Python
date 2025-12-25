@@ -40,6 +40,7 @@ duplicate_rows = df[duplicate_mask]
 print("\nDuplicate Rows:\n",duplicate_rows)
 df.drop_duplicates(subset=["employee_name","department","join_date"],keep="first",ignore_index=False,inplace=True)
 print("\nFinal Clean Data:\n",df)
+df.to_csv('day17_cleaned_data.csv',index=False)
 
 # Insight Extracting
 avg_salary_per_department = df.groupby("department")["salary"].mean()
