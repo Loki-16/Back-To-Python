@@ -4,7 +4,7 @@ import seaborn as sns
 sns.set_theme()
 
 # task 1 - Load Dataset
-df = pd.read_csv('employee_data_day18.csv') #imported cleaned data from day 17
+df = pd.read_csv('employee_data_day18.csv')
 
 # task 2 - Dataset Overview
 print(df.shape)
