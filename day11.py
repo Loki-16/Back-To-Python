@@ -6,16 +6,16 @@ df = pd.DataFrame({
     "salary": [40000, 50000, 70000, 48000, 90000],
     "department": ["HR", "IT", "IT", "Finance", "Management"]
 })
-# # task 11.1
-# df.loc[df["department"] == "IT"]
-# df.loc[df["department"] == "IT",["name","salary"]]
-# df["salary"] = df["salary"].astype(float)
-# df.loc[df["age"]>35,"salary"] *= 1.1
+# task 11.1
+df.loc[df["department"] == "IT"]
+df.loc[df["department"] == "IT",["name","salary"]]
+df["salary"] = df["salary"].astype(float)
+df.loc[df["age"]>35,"salary"] *= 1.1
 
-# # task 11.2
-# df.iloc[0:3]
-# df.iloc[[-2,-1]]
-# df.iloc[1:4,0:3]
+# task 11.2
+df.iloc[0:3]
+df.iloc[[-2,-1]]
+df.iloc[1:4,0:3]
 
 # task 11.3
 """

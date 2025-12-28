@@ -6,24 +6,24 @@ df = pd.DataFrame({
     "salary": [40000, 50000, None, 48000, 90000]
 })
 
-# #  task 12.1
-# print(df)
-# print(df.isna())
-# print(df.isna().sum())
+#  task 12.1
+print(df)
+print(df.isna())
+print(df.isna().sum())
 
-# #  task 12.2
-# print(df.dropna())
-# print(df.dropna(subset=["salary"]))
+#  task 12.2
+print(df.dropna())
+print(df.dropna(subset=["salary"]))
 
-# #  task 12.3
-# mean_age = df["age"].mean()
-# filled_age = df["age"].fillna(mean_age)
-# filled_df = df.fillna({
-#     "salary" : 0,
-#     "name" : "Unknown"
-# })
-# print(filled_age)
-# print(filled_df)
+#  task 12.3
+mean_age = df["age"].mean()
+filled_age = df["age"].fillna(mean_age)
+filled_df = df.fillna({
+    "salary" : 0,
+    "name" : "Unknown"
+})
+print(filled_age)
+print(filled_df)
 
 #  task 12.4
 df_employees = pd.DataFrame({

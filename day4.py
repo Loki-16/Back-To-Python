@@ -1,53 +1,53 @@
-# def greet():
-#     print("Hello welcome to Day 4!")
+def greet():
+    print("Hello welcome to Day 4!")
 
-# greet()
-# greet()
+greet()
+greet()
 
-# def greet_user(name):
-#     print("Hello,", name)
+def greet_user(name):
+    print("Hello,", name)
 
-# greet_user("Lokesh")
+greet_user("Lokesh")
 
-# def add(a,b):
-#     return a+b
+def add(a,b):
+    return a+b
 
-# result = add(5,11)
-# print(result)
+result = add(5,11)
+print(result)
 
-# def introduce(name, age, city):
-#     print(f"{name} is {age} years old and lives in {city}")
+def introduce(name, age, city):
+    print(f"{name} is {age} years old and lives in {city}")
 
-# introduce(name = "Lokesh",age = 25,city = "Raigarh")
-# import math
-# def is_prime(n):
-#     if n <=1:
-#         return False
-#     for i in range(2,int(math.sqrt(n))+1):
-#         if n%i == 0:
-#             return False
-#     return True
+introduce(name = "Lokesh",age = 25,city = "Raigarh")
+import math
+def is_prime(n):
+    if n <=1:
+        return False
+    for i in range(2,int(math.sqrt(n))+1):
+        if n%i == 0:
+            return False
+    return True
 
-# num = int(input("Enter a number: "))
-# if is_prime(num):
-#     print("Prime")
-# else:
-#     print("Not Prime")
+num = int(input("Enter a number: "))
+if is_prime(num):
+    print("Prime")
+else:
+    print("Not Prime")
 
-# def factorial_iter(n):
-#     if n == 0:
-#         return 1
-#     product = 1
-#     for i in range(1,n+1,1):
-#         product = product * i
-#     return product
-# def factorial_rec(n):
-#     if n == 0:
-#         return 1
-#     return n * factorial_rec(n-1)
+def factorial_iter(n):
+    if n == 0:
+        return 1
+    product = 1
+    for i in range(1,n+1,1):
+        product = product * i
+    return product
+def factorial_rec(n):
+    if n == 0:
+        return 1
+    return n * factorial_rec(n-1)
 
-# print(factorial_iter(5))
-# print(factorial_rec(5))
+print(factorial_iter(5))
+print(factorial_rec(5))
 
 
 task_s = []
